@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
-    </Grid>
+        <Grid>
+            <StackPanel>
+                <Button Name="CreateAccountButton" Content="Create Account" Click="CreateAccountButton_Click" Margin="10"/>
+                <Button Name="SelectAccountButton" Content="Select Account" Click="SelectAccountButton_Click" Margin="10"/>
+                <Button Name="ExitButton" Content="Exit" Click="ExitButton_Click" Margin="10"/>
+            </StackPanel>
+        </Grid>
 </Window>
